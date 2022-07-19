@@ -12,3 +12,12 @@
 
   http://www.imparareaprogrammare.it
 */
+var numerosecondi = 10864 ;
+var secondo = 1 ;
+var minuto = secondo * 60 ;
+var ora = minuto * 60 ;
+
+oretot = numerosecondi / ora ;
+mintot = (oretot - Math.floor(oretot))*60
+sectot = (mintot - Math.floor(mintot))*60
+console.log( 'ore' , Math.floor(oretot), 'minuti' , Math.floor(mintot), 'secondi', Math.floor(sectot) )
