@@ -15,3 +15,9 @@
 
   http://www.imparareaprogrammare.it
 */
+var numero1 = 102;
+if ( numero1 % 2 > 0 ) {
+  console.log(1)
+} else {
+  console.log(0)
+}
